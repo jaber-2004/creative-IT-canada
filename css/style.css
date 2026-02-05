@@ -1,0 +1,213 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i {
+    margin: 0%;
+    padding: 0%;
+    line-height: 0.8;
+}
+
+.container {
+    margin: 0% auto;
+    width: 1320px;
+}
+/* Headertoppart start  */
+.headertopBg {
+    padding: 6px 0;
+    background: linear-gradient(90deg, #FF1E1E 0%, #FF8079 100%);
+}
+
+.headertop {
+    display: flex;
+    color: white;
+    column-gap: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Hind Siliguri", sans-serif;
+}
+/* Headerpart start  */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.menu-ul {
+    display: flex;
+    column-gap: 20px;
+    color: #342B27;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.menu-ul :hover {
+    color: #CF0000;
+}
+
+.linkFlex {
+    display: flex;
+    column-gap: 20px;
+}
+
+/* Banner part start  */
+
+ .banner {
+    margin: 0 auto;
+    width: 1676px;
+    height: 766px;
+    position: relative;
+}
+
+.bannerh4 {
+    color: #FF7E31;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: "Trirong", serif;
+    font-style: italic;
+}
+
+.bannerh1 {
+    color: white;
+    font-size: 92px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    width: 561px;
+    line-height: 100%;
+    padding-top: 30px;
+}
+
+.bannerText {
+    position: absolute;
+    left: 178px;
+    top: 240px;
+}
+
+.bannterBtn {
+    margin-top: 100px;
+    padding: 16px 32px;
+    border-radius: 41px;
+    background-color: white;
+    color: #CF0000;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-right: 15px;
+}
+
+.bannterBtn:hover {
+    background-color: #FF8079;
+    color: white;
+}
+/* Counterpartr start  */
+.counterPart {
+    margin: 50px 0;
+}
+
+.counterH3 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.counterH3 span {
+    background: linear-gradient(90deg, #F5595A 0%, #E6333D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-style: italic;
+    font-family: "Trirong", serif;
+}
+
+.counterItem {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0;
+    padding: 0 40px;
+}
+
+.counterItemOne {
+    text-align: center;
+}
+
+.counterItemOne h4 {
+    background: linear-gradient(90deg, #F5595A 0%, #E6333D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 72px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+}
+
+.counterItemOne p {
+    margin-top: 5px;
+    color: black;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.aboutImg {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.aboutText {
+    position: absolute;
+
+    left: 60px;
+    top: 121px;
+}
+.aboutText h4 {
+     background: linear-gradient(90deg, #F5595A 0%, #E6333D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+      font-family: "Trirong", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 42px;
+
+}
+.aboutText h5 {
+    font-size: 40px;
+    font-weight: bold;
+      font-family: "Inter", sans-serif;
+    width: 643px;
+    line-height: 120%;
+}
+.aboutText p {
+    
+}
