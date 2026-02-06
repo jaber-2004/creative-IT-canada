@@ -29,6 +29,7 @@ i {
     margin: 0% auto;
     width: 1320px;
 }
+
 /* Headertoppart start  */
 .headertopBg {
     padding: 6px 0;
@@ -43,6 +44,7 @@ i {
     font-size: 16px;
     font-family: "Hind Siliguri", sans-serif;
 }
+
 /* Headerpart start  */
 
 .header {
@@ -75,7 +77,7 @@ i {
 
 /* Banner part start  */
 
- .banner {
+.banner {
     margin: 0 auto;
     width: 1676px;
     height: 766px;
@@ -124,6 +126,7 @@ i {
     background-color: #FF8079;
     color: white;
 }
+
 /* Counterpartr start  */
 .counterPart {
     margin: 50px 0;
@@ -177,37 +180,179 @@ i {
     font-family: "Inter", sans-serif;
     font-weight: 500;
 }
+
+/* Aboutpart start  */
+
 .aboutImg {
     width: 1440px;
     margin: 0 auto;
     position: relative;
 
 }
+
 .aboutText {
     position: absolute;
 
     left: 60px;
     top: 121px;
 }
+
 .aboutText h4 {
-     background: linear-gradient(90deg, #F5595A 0%, #E6333D 100%);
+    background: linear-gradient(90deg, #F5595A 0%, #E6333D 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-      font-family: "Trirong", serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 42px;
+    font-family: "Trirong", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 42px;
 
 }
+
 .aboutText h5 {
+    margin-top: 8px;
     font-size: 40px;
     font-weight: bold;
-      font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     width: 643px;
     line-height: 120%;
 }
+
 .aboutText p {
-    
+    margin-top: 30px;
+    color: #605F62;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 120%;
+    width: 643px;
+}
+
+.aboutBtn {
+    margin-top: 60px;
+    padding: 16px 32px;
+    border-radius: 41px;
+    background-color: white;
+    color: #CF0000;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-right: 15px;
+    border: 1px solid #FF8079;
+}
+
+.aboutBtn:hover {
+    background-color: #FF8079;
+    color: white;
+}
+
+/* Servicepart start  */
+.servicepart {
+    margin: 100px 0;
+}
+
+.serviceText h3 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.serviceText h3 span {
+    background: linear-gradient(90deg, #F5595A 0%, #E6333D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-style: italic;
+    font-family: "Trirong", serif;
+}
+
+.serviceText p {
+    margin: 32px 0;
+    color: #605F62;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding: 0 260px;
+    line-height: 25px;
+}
+
+.serviceMainBtn {
+    margin: 0 auto;
+    width: 466px;
+    height: 74px;
+    border: 1px solid #D9D9D9;
+    border-radius: 37px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.serviceMainBtn button {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    border: none;
+    background: white;
+    padding: 16px 64px;
+    border-radius: 29px;
+    cursor: pointer;
+}
+
+.serviceMainBtn .serviceBtnTwo {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    border: none;
+    background: linear-gradient(90deg, #FF1E1E 0%, #FF8079 100%);
+    padding: 16px 64px;
+    border-radius: 29px;
+    cursor: pointer;
+}
+.serviceItems {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+   column-gap: 30px;
+}
+.serviceItemOne {
+    width: 380px;
+}
+.serviceItemRelative {
+    position: relative;
+
+}
+
+.serviceItemAbsulet {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 65px;
+}
+.serviceItemRelative img {
+    display: block;
+}
+.serviceItemAbsulet h4 {
+    margin-top: 60px;
+    color: #1F1E1E;
+    font-size: 32px;
+     font-weight: bold;
+    font-family: "Inter", sans-serif;
+    width: 250px;
+    line-height: 130%;
+}
+.serviceItemAbsulet p {
+    margin-top: 16px;
+    color: #605F62;
+    font-size: 16px;
+     font-weight: 400;
+    font-family: "Inter", sans-serif;
+    width: 320px;
+    line-height: 25px;
 }
