@@ -361,6 +361,7 @@ i {
     width: 320px;
     line-height: 25px;
 }
+
 /* Clientfeedback Sart  */
 .clientFeedbackpart {
     margin-bottom: 100px;
@@ -408,4 +409,184 @@ i {
 .campusImg {
     margin-top: 100px;
     text-align: center;
+}
+
+.companyConnected {
+    margin-bottom: 350px;
+}
+
+.companyConnectedText h3 {
+    background: linear-gradient(to right, #EF473A, #CB2D3E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    ;
+    text-align: center;
+    font-size: 48px;
+    font-style: italic;
+    font-family: "Trirong", serif;
+}
+
+.companyConnectedText h4 {
+    padding-top: 10px;
+    color: #1F1E1E;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.companyConnectedImg {
+    text-align: center;
+    width: 100%;
+}
+
+/* Getin Touch start  */
+.getTouchRelative {
+    position: relative;
+}
+
+.getTouchAbsolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 100px 97px;
+}
+
+.getTouchAbsolute h3 {
+    color: #000000;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    width: 371px;
+    line-height: 110%;
+}
+
+.getTouchAbsolute h3 span {
+    color: #CF0000;
+    font-style: italic;
+    font-family: "Trirong", serif;
+}
+
+.getTouchAbsolute p {
+    padding-top: 30px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    width: 559px;
+    line-height: 150%;
+    color: #4D4541;
+}
+
+.getTouchBtn {
+    margin-top: 60px;
+    padding: 16px 32px;
+    border-radius: 41px;
+    background-color: white;
+    color: #CF0000;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-right: 15px;
+    border: 1px solid #FF8079;
+}
+
+.getTouchBtn:hover {
+    background-color: #FF8079;
+    color: white;
+}
+
+.footerpart {
+    margin-top: 100px;
+    background-color: #1F1E1E;
+    padding: 50px 0;
+    position: relative;
+}
+
+.getTouchMainAbosolut {
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 80px;
+    padding-top: 300px;
+}
+
+.footerItemOne h5 {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
+}
+
+.imgTextflex {
+    display: flex;
+    column-gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footerItemOne h4 {
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    font-family: "Trirong", serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.footerItemOne p {
+    padding-top: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    width: 194px;
+    line-height: 150%;
+}
+
+.mailTextFlex {
+    display: flex;
+    column-gap: 15px;
+}
+
+.footerItemTwo h5 {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
+}
+
+.footerUl {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.footerUl li {
+    cursor: pointer;
+}
+.footerBottomFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.footerBottomFlex p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
 }
