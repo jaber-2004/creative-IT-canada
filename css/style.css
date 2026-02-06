@@ -207,7 +207,6 @@ i {
     font-weight: 700;
     font-style: italic;
     font-size: 42px;
-
 }
 
 .aboutText h5 {
@@ -315,15 +314,18 @@ i {
     border-radius: 29px;
     cursor: pointer;
 }
+
 .serviceItems {
     margin-top: 60px;
     display: flex;
     justify-content: center;
-   column-gap: 30px;
+    column-gap: 30px;
 }
+
 .serviceItemOne {
     width: 380px;
 }
+
 .serviceItemRelative {
     position: relative;
 
@@ -335,24 +337,75 @@ i {
     left: 0;
     padding: 40px 65px;
 }
+
 .serviceItemRelative img {
     display: block;
 }
+
 .serviceItemAbsulet h4 {
     margin-top: 60px;
     color: #1F1E1E;
     font-size: 32px;
-     font-weight: bold;
+    font-weight: bold;
     font-family: "Inter", sans-serif;
     width: 250px;
     line-height: 130%;
 }
+
 .serviceItemAbsulet p {
     margin-top: 16px;
     color: #605F62;
     font-size: 16px;
-     font-weight: 400;
+    font-weight: 400;
     font-family: "Inter", sans-serif;
     width: 320px;
     line-height: 25px;
+}
+/* Clientfeedback Sart  */
+.clientFeedbackpart {
+    margin-bottom: 100px;
+}
+
+.clFeedback h3 {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.clFeedback h3 span {
+    background: linear-gradient(90deg, #F5595A 0%, #E6333D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-style: italic;
+    font-family: "Trirong", serif;
+}
+
+.clientfeedbackImg {
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clientFeedbackBtn {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 41px;
+    background: linear-gradient(90deg, #F5595A 0%, #E6333D 100%);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    border: none;
+}
+
+.campusImg {
+    margin-top: 100px;
+    text-align: center;
 }
