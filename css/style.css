@@ -433,9 +433,39 @@ i {
     font-size: 32px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
+    padding-bottom: 60px;
+}
+
+.cMainBtn {
+    margin: 0 auto;
+    width: 840px;
+    height: 74px;
+    border: 1px solid #D9D9D9;
+    border-radius: 37px;
+    display: flex;
+    padding: 8px;
+}
+
+.cMainBtn button {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    border: none;
+    background: white;
+    padding: 16px 64px;
+    border-radius: 29px;
+    cursor: pointer;
+}
+
+.cMainBtn .cBtnTwo {
+    color: white;
+    background: linear-gradient(90deg, #FF1E1E 0%, #FF8079 100%);
+    cursor: pointer;
 }
 
 .companyConnectedImg {
+    margin-top: 60px;
     text-align: center;
     width: 100%;
 }
@@ -497,6 +527,7 @@ i {
     color: white;
 }
 
+/* FooterPart start  */
 .footerpart {
     margin-top: 100px;
     background-color: #1F1E1E;
@@ -574,9 +605,11 @@ i {
     font-weight: 500;
     font-family: "Inter", sans-serif;
 }
+
 .footerUl li {
     cursor: pointer;
 }
+
 .footerBottomFlex {
     display: flex;
     justify-content: space-between;
@@ -589,4 +622,39 @@ i {
     font-size: 16px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
+}
+
+.companyConnectedMainBtn {
+    margin: 0 auto;
+    width: 466px;
+    height: 74px;
+    border: 1px solid #D9D9D9;
+    border-radius: 37px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.companyConnectedMainBtn button {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    border: none;
+    background: white;
+    padding: 16px 64px;
+    border-radius: 29px;
+    cursor: pointer;
+}
+
+.companyConnectedMainBtn .companyConnectedBtnTwo {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    border: none;
+    background: linear-gradient(90deg, #FF1E1E 0%, #FF8079 100%);
+    padding: 16px 64px;
+    border-radius: 29px;
+    cursor: pointer;
 }
